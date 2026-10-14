@@ -4,6 +4,7 @@
    headings, ledger tables, the rating ladder, annex). Phone first, 16px gutter. */
 
 :root {
+  color-scheme: light;
   --paper: #f4f1ea; --paper-2: #ece8df; --paper-3: #e3ded2; --white: #fff;
   --ink: #1C1B19; --ink-2: #58554F; --ink-3: #8A867E; --rule: #D5D1C7; --rule-2: #B5B0A4;
   --earth: #8A6A48; --water: #3D6A86; --fire: #B2603F; --life: #5E7B4C; --air: #6A7B8C; --accent: #2A4A73; --accent-2: #DCE4EF;
@@ -11,7 +12,6 @@
   --serif: "Source Serif 4", Georgia, serif; --sans: "Inter", "Helvetica Neue", Arial, sans-serif; --mono: "IBM Plex Mono", Menlo, monospace;
   --max: 1120px; --gutter: 16px;
 }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --paper: #17171a; --paper-2: #1f1f23; --paper-3: #2a2a30; --white: #111; --ink: #ebe8e1; --ink-2: #b9b4aa; --ink-3: #8a867e; --rule: #33333a; --rule-2: #4a4a52; --accent: #8fb0dc; --accent-2: #26324a; } }
 :root[data-theme="dark"] { --paper: #17171a; --paper-2: #1f1f23; --paper-3: #2a2a30; --white: #111; --ink: #ebe8e1; --ink-2: #b9b4aa; --ink-3: #8a867e; --rule: #33333a; --rule-2: #4a4a52; --accent: #8fb0dc; --accent-2: #26324a; }
 
 * { box-sizing: border-box; }
