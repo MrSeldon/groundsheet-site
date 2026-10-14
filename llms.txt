@@ -1,0 +1,67 @@
+# Groundsheet
+
+> Groundsheet is a screening report for one United States street address, built from public federal and state records. Sixteen sections scored 0 to 3 each, one composite 0 to 10 with a five-step word, every map with its source, retrieved date and data vintage, and a codes key with one line for every code the report prints. Delivered as a 40-page PDF and a web page in minutes. It is not a Phase I environmental site assessment, not a home inspection, not a statutory disclosure, not a measurement at the house, and not an insurance, engineering or legal opinion.
+
+Brand lines: "A home is more than a house." (headline) · "Know the ground before you buy." (proposition) · "Your inspector checks the house. This checks the ground." (operational line)
+Company: Groundsheet, a product of Ashcroft and Thorn. Site: https://getgroundsheet.com (short link https://groundsheet.report redirects here). Contact: hello@getgroundsheet.com.
+
+## What the report contains (sections)
+
+Eleven sections run for every address; two inserts appear where the ground calls for them.
+
+- Regulated facilities: /sections/facilities/ (EPA ECHO; facilities within 2 mi by tier and status)
+- Flood and terrain: /sections/flood/ (FEMA NFHL zones on USGS 3DEP terrain; nearest Special Flood Hazard Area)
+- Wildfire: /sections/wildfire/ (USFS Wildfire Hazard Potential 2023; NIFC and MTBS perimeters since 2015 within 30 mi)
+- Geology, wells and seismic: /sections/geology-and-wells/ (USGWD wells within 2 mi with yield and depth; Macrostrat map units; USGS seismic design values)
+- Radon: /sections/radon/ (EPA county radon zone; USGS NURE surface uranium; a county prediction, not a measurement)
+- Listed species: /sections/species/ (USFWS ECOS county list; designated critical habitat within about 20 mi)
+- Wetlands: /sections/wetlands/ (USFWS National Wetlands Inventory within half a mile; Cowardin codes decoded; Section 404)
+- Pipelines: /sections/pipelines/ (EIA natural gas transmission lines within 5 km; public geometry is generalised)
+- Community context: /sections/community/ (schools, clinics, National Register listings within 1 mi; AFFF-capable airports within 5 mi as a potential PFAS source; receptors only, no ratings)
+- Air quality: /sections/air-quality/ (EPA AQS daily PM2.5 and ozone at the nearest monitor, one square per day for the year; AirNow at the time of the report, unscored)
+- Wind and storms: /sections/wind-and-storms/ (NOAA HURDAT2 tracks within 50 mi since 1950; SPC tornado paths within 10 mi; FEMA NRI wind)
+- Karst and sinkholes (insert, Florida and other karst states): /sections/karst/ (Florida Geological Survey subsidence incident reports within 5 mi; Macrostrat bedrock)
+- California hazard zones (insert, California): /sections/california-hazard-zones/ (the six zones a seller must disclose under Civil Code 1103, read from FEMA, DWR, CAL FIRE and CGS maps; not the statutory NHD statement)
+
+Sources, vintages and the scoring rules: /methodology/. Every code explained: /glossary/.
+
+## Scoring
+
+Each section is scored 0 to 3 and shown as 0, 3.3, 6.7 or 10. The composite is the weighted sum on a 0 to 10 scale; the word beside it (Low under 2.1, Moderate 2.1 to 4.0, Elevated 4.1 to 6.5, High 6.6 and above, Severe on a trigger such as a Superfund NPL site within 0.5 mi) is the band. Regulated facilities is the one weighted section (programme weight times distance factor, summed); the weights are printed in every report. The composite is Groundsheet's weighting of public records, not a government rating. The cover lists the sections that warrant follow-up so that a High section inside a Moderate composite cannot hide.
+
+"Checks: passed" on a cover means every core source answered, every figure reconciled to its record and every cross-check passed. It is a retrieval and consistency check, not a verification of the underlying public records.
+
+## Limits
+
+- Screening only: no site visit, no sampling, no measurement, no professional opinion.
+- A point, not a parcel: findings are computed around the geocoded address (US Census geocoder, match quality printed on the cover); parcel lines are drawn when parcel data is licensed.
+- Public records lag: every map prints the retrieval date and the data vintage; a report is a snapshot and is treated as out of date 90 days after generation.
+- Some sources resolve only to the county (radon zone, the species list) and are labelled as such.
+- A source that does not answer marks its section "Not screened" and the cover "Checks: flagged"; the score never fills in a missing section.
+
+## Samples
+
+- Aptos, California (Moderate 2.9 of 10): /samples/aptos/ · PDF /assets/samples/aptos-2026-10-14.pdf
+- Tampa, Florida (Moderate 2.3 of 10): /samples/tampa/ · PDF /assets/samples/tampa-2026-10-14.pdf
+- Index: /samples/
+
+## Pricing (US dollars)
+
+- One report: $89 (one address, the PDF and the web page). /order/
+- Agent membership: $39 a month plus $49 a report; $39 a report from ten a month; co-branded cover, two-page leave-behind, reruns of the same address during escrow for 60 days. /agents/
+- Office: $249 a month plus $39 a report; five seats, white label, one monthly invoice. /pricing/
+- Volume ladder per report by monthly volume on one account: 1 at $89; 2 to 9 at $49 with membership; 10 to 99 at $39; 100 to 999 at $29; 1,000 and up at $19 to $20.
+- Inspector wholesale during the pilot: $39 a report, suggested retail $89. /inspectors/
+- Pro report for attorneys and small investors: $199 to $249, quoted.
+- Founding agents: ten buyer's agents in Santa Cruz County through 31 January 2027, membership free for six months and free reports on up to three live transactions, in return for feedback.
+- Groundsheet pays no referral fees to real-estate agents.
+
+## Other pages
+
+- /how-it-works/ (the three steps and eight frequently asked questions)
+- /about/ · /contact/ · /terms/ · /privacy/ · /refunds/ (the legal pages are drafts for counsel review, not yet in force)
+- /counties/ (county pages with real local figures, starting with /counties/california/santa-cruz/)
+
+## How to cite
+
+Cite a report as: Groundsheet, "Environmental screening report, [address]," report id [PLM-...], generated [date], https://getgroundsheet.com. Cite a figure with its collar: source, retrieved date and data vintage as printed under the map. Cite a page of this site by its URL and the "Updated" date at its foot. Do not present the composite score as a fact about the property; it is Groundsheet's weighting of the public record as of the retrieval dates.

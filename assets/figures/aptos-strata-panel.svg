@@ -1,0 +1,50 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 190.0 232.0' width='190.0pt' height='232.0pt' font-family="Inter, 'Helvetica Neue', Arial, sans-serif" style='display:block'>
+<defs>
+<pattern id='pat-sand' width='5' height='5' patternUnits='userSpaceOnUse'><circle cx='1.2' cy='1.2' r='0.5' fill='#58554F'/><circle cx='3.7' cy='3.7' r='0.5' fill='#58554F'/></pattern>
+<pattern id='pat-sst' width='8' height='5' patternUnits='userSpaceOnUse'><circle cx='2' cy='2' r='0.5' fill='#58554F'/><line x1='0' y1='4.5' x2='8' y2='4.5' stroke='#58554F' stroke-width='0.4'/></pattern>
+<pattern id='pat-shale' width='8' height='3' patternUnits='userSpaceOnUse'><line x1='0' y1='1.5' x2='5.5' y2='1.5' stroke='#58554F' stroke-width='0.5'/></pattern>
+<pattern id='pat-lime' width='10' height='6' patternUnits='userSpaceOnUse'><path d='M0,0 H10 M0,3 H10 M5,0 V3 M0,3 V6 M10,3 V6' fill='none' stroke='#58554F' stroke-width='0.45'/></pattern>
+<pattern id='pat-crys' width='8' height='8' patternUnits='userSpaceOnUse'><line x1='1' y1='1' x2='4' y2='4' stroke='#58554F' stroke-width='0.55'/><line x1='5' y1='7' x2='7.5' y2='3' stroke='#58554F' stroke-width='0.55'/></pattern>
+</defs>
+<rect width='190.0' height='232.0' fill='#ece8df'/>
+<text x='10.0' y='16.0' font-size='7.5' font-weight='600' fill='#1C1B19'>Under the house: the mapped surface unit</text>
+<rect x='10.0' y='24.0' width='58.0' height='48.0' fill='#FFF2AE' stroke='#1C1B19' stroke-width='0.6'/>
+<rect x='10.0' y='24.0' width='58.0' height='48.0' fill='url(#pat-sand)'/>
+<path d='M35.0,24.0 l4,-5 l4,5 z' fill='#1C1B19'/>
+<text x='76.0' y='31.0' font-size='7.5' font-weight='600' fill='#1C1B19'>Alluvial fan deposits</text>
+<text x='76.0' y='40.5' font-size='7' fill='#58554F'>sedimentary rock;</text>
+<text x='76.0' y='49.0' font-size='7' fill='#58554F'>lithology not recorded</text>
+<text x='76.0' y='57.5' font-size='7' fill='#58554F'>Pleistocene</text>
+<text x='76.0' y='66.0' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E'>0.01 to 2.58 Ma</text>
+<text x='10.0' y='80.0' font-size='7' fill='#1C1B19'>What it means: loose sand, gravel and mud</text>
+<text x='10.0' y='88.3' font-size='7' fill='#1C1B19'>dropped by streams leaving the hills: it</text>
+<text x='10.0' y='96.6' font-size='7' fill='#1C1B19'>drains well and holds shallow groundwater,</text>
+<text x='10.0' y='104.89999999999999' font-size='7' fill='#1C1B19'>but it is soft ground that amplifies</text>
+<text x='10.0' y='113.19999999999999' font-size='7' fill='#1C1B19'>earthquake shaking and settles unevenly.</text>
+<text x='10.0' y='122.99999999999999' font-size='7' fill='#58554F'><tspan font-weight='600' fill='#1C1B19'>Foundation:</tspan> variable: a soils report should</text>
+<text x='10.0' y='131.2' font-size='7' fill='#58554F'>set the footing design</text>
+<text x='10.0' y='139.39999999999998' font-size='7' fill='#58554F'><tspan font-weight='600' fill='#1C1B19'>Karst:</tspan> none: no soluble rock mapped here</text>
+<text x='10.0' y='147.59999999999997' font-size='7' fill='#58554F'><tspan font-weight='600' fill='#1C1B19'>Spill mobility:</tspan> moderate: a spill moves</text>
+<text x='10.0' y='155.79999999999995' font-size='7' fill='#58554F'>through the ground at ordinary rates</text>
+<text x='10.0' y='163.99999999999994' font-size='7' fill='#58554F'><tspan font-weight='600' fill='#1C1B19'>Excavation:</tspan> moderate</text>
+<text x='10.0' y='179.0' font-size='7' font-weight='600' fill='#1C1B19'>Where the unit sits in time</text>
+<rect x='10.0' y='184.0' width='2.3' height='12' fill='#e3ded2' stroke='#B5B0A4' stroke-width='0.4'/>
+<rect x='12.3' y='184.0' width='31.3' height='12' fill='#f4f1ea' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='27.9' y='192.5' font-size='7' fill='#58554F' text-anchor='middle'>Plei.</text>
+<rect x='43.6' y='184.0' width='14.7' height='12' fill='#e3ded2' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='43.6' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='middle'>2.58</text>
+<rect x='58.3' y='184.0' width='52.1' height='12' fill='#f4f1ea' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='84.4' y='192.5' font-size='7' fill='#58554F' text-anchor='middle'>Miocene</text>
+<rect x='110.4' y='184.0' width='21.4' height='12' fill='#e3ded2' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='121.1' y='192.5' font-size='7' fill='#58554F' text-anchor='middle'>Olig.</text>
+<text x='110.4' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='middle'>23</text>
+<rect x='131.8' y='184.0' width='34.8' height='12' fill='#f4f1ea' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='149.2' y='192.5' font-size='7' fill='#58554F' text-anchor='middle'>Eocene</text>
+<text x='131.8' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='middle'>34</text>
+<rect x='166.6' y='184.0' width='13.4' height='12' fill='#e3ded2' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='166.6' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='middle'>56</text>
+<text x='10.0' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E'>today</text>
+<rect x='12.3' y='182.0' width='31.3' height='16' fill='none' stroke='#2A4A73' stroke-width='1.2'/>
+<text x='12.3' y='214.0' font-size='7' fill='#2A4A73' text-anchor='start'>this unit: 0.01 to 2.58 Ma, Pleistocene</text>
+<text x='180.0' y='224.0' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='end'>Ma = million years ago · square-root scale</text>
+</svg>

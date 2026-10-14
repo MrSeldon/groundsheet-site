@@ -1,0 +1,51 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 525.6 232.0' width='525.6pt' height='232.0pt' font-family="Inter, 'Helvetica Neue', Arial, sans-serif" style='display:block'>
+<defs>
+<pattern id='pat-sand' width='5' height='5' patternUnits='userSpaceOnUse'><circle cx='1.2' cy='1.2' r='0.5' fill='#58554F'/><circle cx='3.7' cy='3.7' r='0.5' fill='#58554F'/></pattern>
+<pattern id='pat-sst' width='8' height='5' patternUnits='userSpaceOnUse'><circle cx='2' cy='2' r='0.5' fill='#58554F'/><line x1='0' y1='4.5' x2='8' y2='4.5' stroke='#58554F' stroke-width='0.4'/></pattern>
+<pattern id='pat-shale' width='8' height='3' patternUnits='userSpaceOnUse'><line x1='0' y1='1.5' x2='5.5' y2='1.5' stroke='#58554F' stroke-width='0.5'/></pattern>
+<pattern id='pat-lime' width='10' height='6' patternUnits='userSpaceOnUse'><path d='M0,0 H10 M0,3 H10 M5,0 V3 M0,3 V6 M10,3 V6' fill='none' stroke='#58554F' stroke-width='0.45'/></pattern>
+<pattern id='pat-crys' width='8' height='8' patternUnits='userSpaceOnUse'><line x1='1' y1='1' x2='4' y2='4' stroke='#58554F' stroke-width='0.55'/><line x1='5' y1='7' x2='7.5' y2='3' stroke='#58554F' stroke-width='0.55'/></pattern>
+</defs>
+<rect width='525.6' height='232.0' fill='#ece8df'/>
+<text x='10.0' y='16.0' font-size='7.5' font-weight='600' fill='#1C1B19'>Under the house: the mapped surface unit</text>
+<rect x='10.0' y='24.0' width='96.0' height='118.0' fill='#FFF75B' stroke='#1C1B19' stroke-width='0.6'/>
+<rect x='10.0' y='24.0' width='96.0' height='118.0' fill='url(#pat-lime)'/>
+<path d='M54.0,24.0 l4,-5 l4,5 z' fill='#1C1B19'/>
+<text x='114.0' y='31.0' font-size='7.5' font-weight='600' fill='#1C1B19'>Hawthorn Group, Arcadia Formation, Tampa Member</text>
+<text x='114.0' y='40.5' font-size='7' fill='#58554F'>mainly limestone, with dolostone, sand, clay, and traces of coral</text>
+<text x='114.0' y='49.0' font-size='7' fill='#58554F'>Chattian to Middle Miocene</text>
+<text x='114.0' y='57.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E'>12 to 27 Ma</text>
+<text x='10.0' y='150.0' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E'>at the surface; thickness</text>
+<text x='10.0' y='158.0' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E'>not in the source</text>
+<text x='114.0' y='70.0' font-size='7' fill='#1C1B19'>What it means: limestone dissolves slowly in rainwater: it makes firm ground but also cavities and</text>
+<text x='114.0' y='78.3' font-size='7' fill='#1C1B19'>sinkholes, and it moves groundwater fast through cracks and channels.</text>
+<text x='114.0' y='88.1' font-size='7' fill='#58554F'><tspan font-weight='600' fill='#1C1B19'>Foundation:</tspan> good: firm ground for ordinary footings</text>
+<text x='114.0' y='96.3' font-size='7' fill='#58554F'><tspan font-weight='600' fill='#1C1B19'>Karst:</tspan> carbonate rock, karst-prone; cavities and sinkholes possible (Macrostrat potential field:</text>
+<text x='114.0' y='104.5' font-size='7' fill='#58554F'>none)</text>
+<text x='114.0' y='112.7' font-size='7' fill='#58554F'><tspan font-weight='600' fill='#1C1B19'>Spill mobility:</tspan> fast: a spill reaches groundwater quickly</text>
+<text x='114.0' y='120.9' font-size='7' fill='#58554F'><tspan font-weight='600' fill='#1C1B19'>Excavation:</tspan> difficult: rock, blasting or heavy equipment</text>
+<text x='10.0' y='179.0' font-size='7' font-weight='600' fill='#1C1B19'>Where the unit sits in time</text>
+<rect x='10.0' y='184.0' width='6.7' height='12' fill='#e3ded2' stroke='#B5B0A4' stroke-width='0.4'/>
+<rect x='16.7' y='184.0' width='93.2' height='12' fill='#f4f1ea' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='63.3' y='192.5' font-size='7' fill='#58554F' text-anchor='middle'>Pleistocene</text>
+<rect x='110.0' y='184.0' width='43.8' height='12' fill='#e3ded2' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='131.8' y='192.5' font-size='7' fill='#58554F' text-anchor='middle'>Pliocene</text>
+<text x='110.0' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='middle'>2.58</text>
+<rect x='153.7' y='184.0' width='154.9' height='12' fill='#f4f1ea' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='231.2' y='192.5' font-size='7' fill='#58554F' text-anchor='middle'>Miocene</text>
+<text x='153.7' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='middle'>5.33</text>
+<rect x='308.7' y='184.0' width='63.7' height='12' fill='#e3ded2' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='340.5' y='192.5' font-size='7' fill='#58554F' text-anchor='middle'>Oligocene</text>
+<text x='308.7' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='middle'>23</text>
+<rect x='372.4' y='184.0' width='103.4' height='12' fill='#f4f1ea' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='424.0' y='192.5' font-size='7' fill='#58554F' text-anchor='middle'>Eocene</text>
+<text x='372.4' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='middle'>34</text>
+<rect x='475.7' y='184.0' width='39.9' height='12' fill='#e3ded2' stroke='#B5B0A4' stroke-width='0.4'/>
+<text x='495.7' y='192.5' font-size='7' fill='#58554F' text-anchor='middle'>Paleocene</text>
+<text x='475.7' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='middle'>56</text>
+<text x='515.6' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='end'>66 Ma</text>
+<text x='10.0' y='203.5' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E'>today</text>
+<rect x='222.2' y='182.0' width='112.9' height='16' fill='none' stroke='#2A4A73' stroke-width='1.2'/>
+<text x='335.2' y='214.0' font-size='7' fill='#2A4A73' text-anchor='end'>this unit: 12 to 27 Ma, Chattian to Middle Miocene</text>
+<text x='515.6' y='224.0' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='end'>Ma = million years ago · square-root scale</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 525.6 94.0' width='525.6pt' height='94.0pt' font-family="Inter, 'Helvetica Neue', Arial, sans-serif" style='display:block'>
+<rect width='525.6' height='94.0' fill='#ece8df'/>
+<text x='10.0' y='13' font-size='7.5' font-weight='600' fill='#1C1B19'>One well, one glyph</text>
+<text x='246.0' y='13' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E' text-anchor='end'>drawn at the map's scale</text>
+<circle cx='26.0' cy='30.0' r='2.2' fill='#f4f1ea' stroke='#D08A2E' stroke-width='1'/>
+<line x1='28.2' y1='30.0' x2='53.0' y2='21.8' stroke='#8A867E' stroke-width='0.4'/>
+<text x='56.0' y='24' font-size='7' fill='#58554F'>one small circle: where the well is, what it is for</text>
+<text x='56.0' y='34.0' font-size='7' fill='#58554F'>This state files where each well is and what</text>
+<text x='56.0' y='42.5' font-size='7' fill='#58554F'>it is for, not depth or yield, so every well</text>
+<text x='56.0' y='51.0' font-size='7' fill='#58554F'>is the same small circle.</text>
+<line x1='10.0' y1='56.0' x2='246.0' y2='56.0' stroke='#B5B0A4' stroke-width='0.5'/>
+<rect x='10.0' y='60.5' width='6' height='6' fill='#D08A2E'/>
+<text x='19.0' y='66.0' font-size='7' fill='#58554F'>Irrigation <tspan font-family="'IBM Plex Mono', Menlo, Consolas, monospace" fill='#8A867E'>35</tspan></text>
+<rect x='90.0' y='60.5' width='6' height='6' fill='#9B3B3B'/>
+<text x='99.0' y='66.0' font-size='7' fill='#58554F'>Industrial <tspan font-family="'IBM Plex Mono', Menlo, Consolas, monospace" fill='#8A867E'>1</tspan></text>
+<rect x='170.0' y='60.5' width='6' height='6' fill='#8E8A82'/>
+<text x='179.0' y='66.0' font-size='7' fill='#58554F'>Unknown or other <tspan font-family="'IBM Plex Mono', Menlo, Consolas, monospace" fill='#8A867E'>14</tspan></text>
+<text x='10.0' y='88.0' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#8A867E'>colour = use; the ledger prints the use in words</text>
+<line x1='253.0' y1='8' x2='253.0' y2='86.0' stroke='#B5B0A4' stroke-width='0.5'/>
+<text x='260.0' y='13' font-size='7.5' font-weight='600' fill='#1C1B19'>Wells by distance</text>
+<text x='308.0' y='28' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#58554F' text-anchor='end'>within ¼ mi</text>
+<rect x='312.0' y='22' width='0.0' height='7' fill='#2A4A73' opacity='0.8'/>
+<text x='315.0' y='28' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#1C1B19'>0</text>
+<text x='308.0' y='40' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#58554F' text-anchor='end'>within ½ mi</text>
+<rect x='312.0' y='34' width='58.3' height='7' fill='#2A4A73' opacity='0.8'/>
+<text x='373.3' y='40' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#1C1B19'>17</text>
+<text x='308.0' y='52' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#58554F' text-anchor='end'>within 1 mi</text>
+<rect x='312.0' y='46' width='161.3' height='7' fill='#2A4A73' opacity='0.8'/>
+<text x='476.3' y='52' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#1C1B19'>47</text>
+<text x='308.0' y='64' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#58554F' text-anchor='end'>within 2 mi</text>
+<rect x='312.0' y='58' width='171.6' height='7' fill='#2A4A73' opacity='0.8'/>
+<text x='486.6' y='64' font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size='7' fill='#1C1B19'>50</text>
+<text x='260.0' y='74.0' font-size='7' fill='#58554F'>Aquifer named for 50 of 50: Floridan Aquifer System. An aquifer is</text>
+<text x='260.0' y='82.5' font-size='7' fill='#58554F'>the water-bearing rock a well draws from.</text>
+</svg>

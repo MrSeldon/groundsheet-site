@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order · Groundsheet</title>
+<meta name="description" content="Order a Groundsheet report for one US street address. $89. Geocode confirmation before the run, delivery as PDF and web page in minutes. Checkout opens when payments go live.">
+<link rel="canonical" href="https://getgroundsheet.com/order/">
+<meta property="og:site_name" content="Groundsheet">
+<meta property="og:title" content="One address, one report, $89">
+<meta property="og:description" content="Order a Groundsheet report for one US street address. $89. Geocode confirmation before the run, delivery as PDF and web page in minutes. Checkout opens when payments go live.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://getgroundsheet.com/order/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/skin.css">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@id": "https://getgroundsheet.com/order/",
+ "@type": "CheckoutPage",
+ "isPartOf": {
+  "@id": "https://getgroundsheet.com/#site"
+ },
+ "mainEntity": {
+  "@id": "https://getgroundsheet.com/#report"
+ },
+ "name": "Order a Groundsheet report",
+ "url": "https://getgroundsheet.com/order/"
+}
+</script>
+</head>
+<body class="layout-page section-order">
+<header class="gs-header">
+  <div class="wrap">
+    <a class="gs-wordmark" href="/" aria-label="Groundsheet home"><span class="mark" aria-hidden="true"></span>Groundsheet</a>
+    <nav class="gs-nav" aria-label="Primary">
+<a href="/how-it-works/">How it works</a><a href="/sections/">What's inside</a><a href="/samples/">Samples</a><a href="/pricing/">Pricing</a><a href="/agents/">For agents</a><a href="/inspectors/">For inspectors</a><a href="/methodology/">Sources</a>    </nav>
+    <a class="gs-cta" href="/order/"><span class="full">Get the groundsheet</span><span class="brief">Order</span></a>
+    <details class="gs-menu">
+      <summary aria-label="Menu"><span></span><span></span><span></span></summary>
+      <nav aria-label="Primary, small screens">
+<a href="/how-it-works/">How it works</a><a href="/sections/">What's inside</a><a href="/samples/">Samples</a><a href="/pricing/">Pricing</a><a href="/agents/">For agents</a><a href="/inspectors/">For inspectors</a><a href="/methodology/">Sources</a>        <a href="/order/">Order</a><a href="/about/">About</a><a href="/contact/">Contact</a>
+      </nav>
+    </details>
+  </div>
+</header>
+<main class="wrap">
+  <article class="gs-article">
+    <header class="gs-article-head">
+      <h1>One address, one report, $89</h1>
+<p class="standfirst">Type the address. We geocode it and show you the point before anything runs. The report arrives as a PDF and a web page, usually inside ten minutes.</p>    </header>
+    <div class="gs-body">
+      <div class="callout warn"><b>Checkout opens when payments go live.</b> Until Stripe is switched on, this page takes the address and your email and we run the report by hand within the day. You pay nothing now; we send an invoice with the report. Agents and inspectors: the membership and wholesale lines are on <a href="/pricing/">the pricing page</a>.</div>
+
+<form class="order-form" method="post" action="/order/" aria-labelledby="order-heading" onsubmit="return false">
+<p class="kicker" id="order-heading">Step 1 of 3 · The address</p>
+<label for="address">Street address, US only</label>
+<input type="text" id="address" name="address" placeholder="123 Post Office Dr, Aptos, CA 95003" autocomplete="street-address" required>
+<label for="email">Email for delivery</label>
+<input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+
+<p class="kicker">Step 2 of 3 · Confirm the point</p>
+<div class="geocode">
+<p>We place the address with the US Census geocoder and show it here before the run. The sample below is what the confirmation looks like for the Aptos address.</p>
+<img src="/assets/figures/aptos-property-satellite.jpg" width="800" height="600" alt="Satellite image of 123 Post Office Dr, Aptos, with the geocoded point marked at the centre">
+<span class="mono">123 Post Office Dr, Aptos, CA 95003 · 36.976586° N, 121.900386° W · Census exact match (TIGER line 606051807)</span>
+<p style="margin:8px 0 0">If the point is wrong, you correct the address and we try again; nothing runs until you say this is the house.</p>
+</div>
+
+<p class="kicker">Step 3 of 3 · The report</p>
+<div class="total">$89 <small>one report, the PDF and the web page, US dollars, sales tax added where it applies</small></div>
+<div class="row"><button class="btn" type="submit" disabled aria-disabled="true">Pay $89 and run the report</button> <a class="btn ghost" href="/contact/?subject=order">Order by hand instead</a></div>
+<p style="font-size:13px;color:var(--ink-3);margin:12px 0 0">The pay button is disabled until payments are live. By ordering you accept the <a href="/terms/">terms</a>, the <a href="/privacy/">privacy policy</a> and the <a href="/refunds/">refund policy</a>, all of which are drafts under counsel review.</p>
+</form>
+
+<h2 id="what-happens-next">What happens next</h2>
+<ol>
+<li><strong>Minutes, not days.</strong> The engine queries 24 public federal and state services around the confirmed point, draws every map, scores sixteen sections and reconciles each figure to its record. Most reports finish in under ten minutes; the longest we have seen is about twenty when a federal service is slow.</li>
+<li><strong>Two things in your inbox.</strong> The PDF, about 40 pages, and a private link to the web version with the same findings. Forward either to your agent, your inspector, your lender or your attorney; the licence covers the people in your transaction.</li>
+<li><strong>If a source fails.</strong> The affected section reads "Not screened", the cover reads "Checks: flagged", and a credit for a rerun arrives without you asking. If we cannot generate the report at all, you are refunded in full.</li>
+<li><strong>If the point was wrong.</strong> Write to us within fourteen days and we run the corrected address at no charge or refund the order, your choice.</li>
+</ol>
+<h2 id="before-you-order">Before you order</h2>
+<p>The report is a screening of public records for one point. It is not a Phase I environmental site assessment, not a home inspection, not a California Natural Hazard Disclosure Statement, not an insurance, engineering or legal opinion, and it measures nothing at the house. Read <a href="/samples/">a sample</a> first if you have not; both are public in full.</p>
+    </div>
+<p class="gs-updated">Updated 2026-10-14</p>  </article>
+</main>
+<footer class="gs-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <p class="gs-wordmark small">Groundsheet</p>
+        <p class="tag">A home is more than a house.<br>Know the ground before you buy.</p>
+      </div>
+      <div>
+        <p class="label">The report</p>
+        <a href="/how-it-works/">How it works</a><a href="/sections/">What's inside</a><a href="/samples/">Sample reports</a><a href="/methodology/">Sources and method</a><a href="/glossary/">Codes key</a>
+      </div>
+      <div>
+        <p class="label">Who it is for</p>
+        <a href="/agents/">Buyer's agents</a><a href="/inspectors/">Home inspectors</a><a href="/pricing/">Pricing</a><a href="/counties/">By county</a>
+      </div>
+      <div>
+        <p class="label">Company</p>
+        <a href="/about/">About</a><a href="/contact/">Contact</a><a href="/terms/">Terms</a><a href="/privacy/">Privacy</a><a href="/refunds/">Refunds</a>
+      </div>
+    </div>
+    <p class="fine">A screening report built from public federal and state records. Not a Phase I environmental site assessment, not a home inspection, not a statutory disclosure, not an insurance or engineering opinion. Every map says where it came from and when. © 2026 Groundsheet.</p>
+  </div>
+</footer>
+</body>
+</html>

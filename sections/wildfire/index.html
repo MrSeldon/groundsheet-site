@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wildfire · Groundsheet</title>
+<meta name="description" content="How the Groundsheet wildfire section works, with the Aptos sample's hazard map and burn perimeters, the difference between a hazard class and a fire history, what the map cannot show, what a buyer can do, and every code the page prints.">
+<link rel="canonical" href="https://getgroundsheet.com/sections/wildfire/">
+<meta property="og:site_name" content="Groundsheet">
+<meta property="og:title" content="The hazard class at the parcel, and what has actually burned nearby">
+<meta property="og:description" content="How the Groundsheet wildfire section works, with the Aptos sample's hazard map and burn perimeters, the difference between a hazard class and a fire history, what the map cannot show, what a buyer can do, and every code the page prints.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://getgroundsheet.com/sections/wildfire/">
+<meta property="og:image" content="https://getgroundsheet.com/assets/figures/aptos-wildfire-map.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/skin.css">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "about": {
+   "@type": "Thing",
+   "name": "Wildfire hazard and fire history near a property"
+  },
+  "author": {
+   "@type": "Organization",
+   "name": "Groundsheet",
+   "url": "https://getgroundsheet.com"
+  },
+  "dateModified": "2026-10-14",
+  "datePublished": "2026-10-14",
+  "description": "How the Groundsheet wildfire section works, with the Aptos sample\u0027s hazard map and burn perimeters, limits, steps and codes.",
+  "headline": "The hazard class at the parcel, and what has actually burned nearby",
+  "image": "https://getgroundsheet.com/assets/figures/aptos-wildfire-map.png",
+  "mainEntityOfPage": "https://getgroundsheet.com/sections/wildfire/",
+  "publisher": {
+   "@type": "Organization",
+   "name": "Groundsheet",
+   "url": "https://getgroundsheet.com"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Dataset",
+    "creator": {
+     "@type": "Organization",
+     "name": "US Forest Service, Fire Modeling Institute",
+     "url": "https://www.firelab.org/project/wildfire-hazard-potential"
+    },
+    "description": "The USFS Wildfire Hazard Potential raster, five classes, read at the parcel (class 2, low) and drawn around it.",
+    "image": "https://getgroundsheet.com/assets/figures/aptos-wildfire-map.png",
+    "license": "https://www.usa.gov/government-works",
+    "name": "Wildfire Hazard Potential around Aptos, California",
+    "spatialCoverage": {
+     "@type": "Place",
+     "name": "Aptos, Santa Cruz County, California"
+    },
+    "temporalCoverage": "2023",
+    "url": "https://getgroundsheet.com/sections/wildfire/"
+   },
+   {
+    "@type": "Dataset",
+    "creator": {
+     "@type": "Organization",
+     "name": "National Interagency Fire Center and MTBS",
+     "url": "https://data-nifc.opendata.arcgis.com/"
+    },
+    "description": "23 mapped fire perimeters of 100 acres or more since 2015 from NIFC InterAgency Fire Perimeter History merged with MTBS burned-area boundaries, 560,243 acres, led by the SCU Lightning Complex.",
+    "image": "https://getgroundsheet.com/assets/figures/aptos-wildfire-locator.png",
+    "license": "https://www.usa.gov/government-works",
+    "name": "Burn perimeters within reach of Aptos, California, 2015 to 2020",
+    "spatialCoverage": {
+     "@type": "Place",
+     "name": "Santa Cruz County, California and neighbours"
+    },
+    "temporalCoverage": "2015/2020",
+    "url": "https://getgroundsheet.com/sections/wildfire/"
+   }
+  ]
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "item": "https://getgroundsheet.com/",
+    "name": "Groundsheet",
+    "position": 1
+   },
+   {
+    "@type": "ListItem",
+    "item": "https://getgroundsheet.com/sections/",
+    "name": "What\u0027s inside",
+    "position": 2
+   },
+   {
+    "@type": "ListItem",
+    "item": "https://getgroundsheet.com/sections/wildfire/",
+    "name": "Wildfire",
+    "position": 3
+   }
+  ]
+ }
+]
+</script>
+</head>
+<body class="layout-page section-sections">
+<header class="gs-header">
+  <div class="wrap">
+    <a class="gs-wordmark" href="/" aria-label="Groundsheet home"><span class="mark" aria-hidden="true"></span>Groundsheet</a>
+    <nav class="gs-nav" aria-label="Primary">
+<a href="/how-it-works/">How it works</a><a href="/sections/" aria-current="page">What's inside</a><a href="/samples/">Samples</a><a href="/pricing/">Pricing</a><a href="/agents/">For agents</a><a href="/inspectors/">For inspectors</a><a href="/methodology/">Sources</a>    </nav>
+    <a class="gs-cta" href="/order/"><span class="full">Get the groundsheet</span><span class="brief">Order</span></a>
+    <details class="gs-menu">
+      <summary aria-label="Menu"><span></span><span></span><span></span></summary>
+      <nav aria-label="Primary, small screens">
+<a href="/how-it-works/">How it works</a><a href="/sections/">What's inside</a><a href="/samples/">Samples</a><a href="/pricing/">Pricing</a><a href="/agents/">For agents</a><a href="/inspectors/">For inspectors</a><a href="/methodology/">Sources</a>        <a href="/order/">Order</a><a href="/about/">About</a><a href="/contact/">Contact</a>
+      </nav>
+    </details>
+  </div>
+</header>
+<main class="wrap">
+  <article class="gs-article">
+    <header class="gs-article-head">
+<p class="kicker">§ 03 · Wildfire</p>      <h1>The hazard class at the parcel, and what has actually burned nearby</h1>
+<p class="standfirst">Two different questions, answered side by side. The US Forest Service's Wildfire Hazard Potential says how fire-prone the standing landscape is at the point; the burn perimeters say what has burned within reach since 2015. At Aptos the two disagree in an instructive way, class 2 of 5 at the parcel and 560,243 acres burned within reach, most of it in August 2020.</p>    </header>
+    <figure class="gs-hero">
+      <img src="/assets/figures/aptos-wildfire-map.png" alt="USFS Wildfire Hazard Potential around 123 Post Office Dr, Aptos, in five classes from very low to very high over satellite imagery, with the recent burn perimeters of 100 acres or more outlined and the subject marked in a low class pocket near the coast" loading="eager">
+<figcaption>§ 03 · Fig. A · Wildfire Hazard Potential and burn perimeters, 123 Post Office Dr, Aptos, CA · USFS WHP 2023 · NIFC and MTBS perimeters 2015 to present · retrieved 14 October 2026 · EPSG:3857, WGS 84, north up</figcaption>    </figure>
+    <div class="gs-body">
+      <div class="collar"><span><b>Source</b> USFS Wildfire Hazard Potential (probabilistic raster, parcel-class lookup) · burn perimeters via NIFC InterAgency Fire Perimeter History and MTBS burned-area boundaries (100 acres or more, 2015 to present) · basemap Mapbox Satellite</span><span><b>Vintage</b> WHP 2023 model; perimeters 2015 to 2020 in the sample; NIFC incomplete before 2021, MTBS fills those years</span><span><b>Retrieved</b> 14 October 2026</span><span><b>Projection</b> EPSG:3857 · WGS 84 · north up · distances geodesic to the nearest perimeter edge</span></div>
+
+<div class="stats">
+<div class="stat"><div class="n">Class 2</div><div class="l">WHP at parcel</div><div class="u">low, of five classes; a model of the standing landscape, not a forecast</div></div>
+<div class="stat"><div class="n">23</div><div class="l">fires recorded</div><div class="u">perimeters of 100 acres or more since 2015 within the 50 km search</div></div>
+<div class="stat"><div class="n">560,243</div><div class="l">acres burned</div><div class="u">cumulative within reach; the CZU Lightning Complex's nearest edge 11.1 mi west</div></div>
+<div class="stat"><div class="n">405,644</div><div class="l">largest fire (ac)</div><div class="u">SCU Lightning Complex, 2020, 27.1 mi north-east</div></div>
+</div>
+
+<h2 id="what-the-figure-shows">What the figure shows</h2>
+<p>Page A is the hazard: the US Forest Service's Wildfire Hazard Potential, a raster that models the relative likelihood of a parcel experiencing wildfire from fuels, terrain, weather and historical ignition patterns, in five classes from very low to very high, drawn over satellite imagery with the recent burn perimeters outlined on top. The class at the point is read from the pixel under the parcel. Page B is the history: the ten largest burns within reach since 2015 as a table (name, year, acres, distance to the nearest edge, bearing) and a locator that places every perimeter by its true position and extent relative to the property, numbers keyed to the table, no hazard shading, geometry only. Page C is the annex.</p>
+<p>Aptos is the case that explains why both pages exist. The parcel sits in class 2 of 5, low: a coastal village pocket with little fuel. Yet the locator shows the CZU Lightning Complex, 85,839 acres in the Santa Cruz Mountains, with its nearest edge 11.1 miles to the west, and the SCU Lightning Complex, 405,644 acres, 27.1 miles to the north-east; 23 perimeters and 560,243 acres in all. The rating describes the standing landscape; the history describes what has burned. A reader who sees only one of the two draws the wrong conclusion either way.</p>
+<h2 id="what-it-cannot-show">What it cannot show</h2>
+<p>The WHP is a probabilistic estimate of underlying potential at 270 m resolution, not a prediction, a forecast or a statement about this house's roof. Perimeters under 100 acres and fires before 2015 are not drawn, which keeps the map to consequential, well-documented events and leaves out the small grass fire next door. The NIFC record is incomplete before 2021, which is why MTBS burned-area boundaries are merged in, with their one-to-two-year lag. Prescribed and vegetation-management burns appear in the roster because they are mapped perimeters, not because they were wildfires; the table names them (VMP). Distances run to the nearest perimeter edge, so a 405,644-acre fire "27.1 mi away" is a fire whose nearest edge was 27.1 mi away. And the section says nothing about the one thing an insurer cares most about: whether the house has ember-resistant vents and a cleared five feet.</p>
+<p>One more limit, stated plainly: the search radius is 50 km (31 mi) from the point, and the sample's caption says "thirty miles"; two of the 23 listed perimeters fall at 33.9 and 34.6 mi by nearest edge. The report team is aligning the caption and the filter for the next render; this page reports the sample as it printed.</p>
+<h2 id="why-it-matters-to-a-buyer">Why it matters to a buyer</h2>
+<p>In California the wildfire question is three questions: the insurer's (can the house be insured, and at what price, which turns on the state's fire hazard severity zone and the house's hardening), the lender's (the same), and the household's (is there a way out, and what does the air do in September). The WHP class is the landscape view; the state's statutory zones, read on the <a href="/sections/california-hazard-zones/">California hazard zones</a> page, are the disclosure view; the fire history is the memory that neighbours carry and maps forget. The Groundsheet scale weights wildfire at 4 percent from the WHP class, which is why a parcel in a low class pocket with a vast fire history still reads Low in this section and the history is kept on the page in words.</p>
+<h2 id="what-you-can-do">What you can do</h2>
+<ol>
+<li>Keep the first five feet around the house free of anything that burns, then thin and space plants out to 100 feet: the defensible-space rule the state enforces. <a href="https://www.fire.ca.gov/dspace">fire.ca.gov</a></li>
+<li>The cheapest hardening is ember-proofing: fine metal mesh on vents, clean gutters, no wood against the wall; the state fire marshal's low-cost retrofit list (Assembly Bill 38) is the checklist. <a href="https://osfm.fire.ca.gov/what-we-do/community-wildfire-preparedness-and-mitigation/building-in-the-wildland">osfm.fire.ca.gov</a></li>
+<li>Write a go-plan now: two ways out, a meeting point, the county alert sign-up, a go-bag packed through fire season. <a href="https://www.ready.gov/wildfires">ready.gov</a></li>
+<li>Smoke reaches further than flame: pair this with the <a href="/sections/air-quality/">air quality</a> steps and the fire-and-smoke map on a bad day. <a href="https://fire.airnow.gov/">fire.airnow.gov</a></li>
+<li>Before the offer, get an insurance quote in writing; in a high or very high zone, ask the seller for the defensible-space inspection the state requires at sale.</li>
+</ol>
+<h2 id="reading-this-section">Reading this section</h2>
+<div class="annex"><dl>
+<div class="row"><dt><a href="/glossary/#WHP">WHP</a></dt><dd>Wildfire Hazard Potential, a USFS rating in five classes (very low to very high) of the relative likelihood a parcel experiences wildfire, modelled from fuels, terrain, weather and ignition history; a probabilistic estimate of potential, not a forecast.</dd></div>
+<div class="row"><dt>Burn perimeter</dt><dd>The mapped outline of a past fire's footprint; the section screens perimeters of 100 acres or more since 2015 within reach of the property.</dd></div>
+<div class="row"><dt>Recent fire history</dt><dd>The roster of qualifying burns over a fixed ten-year window; an empty roster is a genuine finding, not missing data.</dd></div>
+<div class="row"><dt><a href="/glossary/#VMP">Prescribed / VMP burn</a></dt><dd>A controlled fire set by land managers to reduce fuel; VMP is CAL FIRE's Vegetation Management Program. Listed because it is a mapped perimeter; it represents risk reduction, not damage.</dd></div>
+<div class="row"><dt><a href="/glossary/#NIFC">NIFC</a></dt><dd>National Interagency Fire Center InterAgency Fire Perimeter History, the federal consolidated record of mapped fire footprints; incomplete before 2021.</dd></div>
+<div class="row"><dt><a href="/glossary/#MTBS">MTBS</a></dt><dd>Monitoring Trends in Burn Severity: every fire over 1,000 acres in the West and 500 in the East since 1984, from satellite imagery, with a one-to-two-year lag; merged with NIFC, deduped on name and year.</dd></div>
+<div class="row"><dt>Probabilistic raster</dt><dd>The WHP is a grid of pixels each carrying a hazard value; the section reads the pixel at the property's coordinates, a parcel-class lookup.</dd></div>
+<div class="row"><dt>Bearing notation</dt><dd>Eight-point compass beside each distance: "27.1 mi NE" means 27.1 miles to the north-east of the property, to the nearest edge of the perimeter.</dd></div>
+<div class="row"><dt><a href="/glossary/#CAL-FIRE">CAL FIRE · FRAP</a></dt><dd>The California Department of Forestry and Fire Protection and its Fire and Resource Assessment Program, which maps the state responsibility area and the hazard severity zones read on the hazard zones page.</dd></div>
+<div class="row"><dt><a href="/glossary/#EPSG">EPSG:3857 · WGS 84</a></dt><dd>Web Mercator on the WGS 84 datum.</dd></div>
+</dl></div>
+
+<h2 id="in-the-sample-reports">In the sample reports</h2>
+<p>Aptos: <a href="/assets/samples/aptos-2026-10-14.pdf#page=15">pages 15 to 17 of the sample PDF</a> (hazard plate, fire history and locator with the steps, annex). Tampa: <a href="/assets/samples/tampa-2026-10-14.pdf#page=15">pages 15 to 17</a>, moderate hazard with a short roster. The six statutory zones, including the state's fire hazard severity zones, are on the <a href="/sections/california-hazard-zones/">California hazard zones</a> page; the codes are in the <a href="/glossary/#wildfire">codes key</a>.</p>
+    </div>
+<p class="gs-updated">Updated 2026-10-14</p>  </article>
+</main>
+<footer class="gs-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <p class="gs-wordmark small">Groundsheet</p>
+        <p class="tag">A home is more than a house.<br>Know the ground before you buy.</p>
+      </div>
+      <div>
+        <p class="label">The report</p>
+        <a href="/how-it-works/">How it works</a><a href="/sections/">What's inside</a><a href="/samples/">Sample reports</a><a href="/methodology/">Sources and method</a><a href="/glossary/">Codes key</a>
+      </div>
+      <div>
+        <p class="label">Who it is for</p>
+        <a href="/agents/">Buyer's agents</a><a href="/inspectors/">Home inspectors</a><a href="/pricing/">Pricing</a><a href="/counties/">By county</a>
+      </div>
+      <div>
+        <p class="label">Company</p>
+        <a href="/about/">About</a><a href="/contact/">Contact</a><a href="/terms/">Terms</a><a href="/privacy/">Privacy</a><a href="/refunds/">Refunds</a>
+      </div>
+    </div>
+    <p class="fine">A screening report built from public federal and state records. Not a Phase I environmental site assessment, not a home inspection, not a statutory disclosure, not an insurance or engineering opinion. Every map says where it came from and when. © 2026 Groundsheet.</p>
+  </div>
+</footer>
+</body>
+</html>

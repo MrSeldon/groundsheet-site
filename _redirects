@@ -1,0 +1,21 @@
+# Groundsheet redirects (Cloudflare Pages and Netlify read this file from the output root).
+# Netlify honours the domain-level rules below. Cloudflare Pages ignores rules whose source
+# carries a host, so on Cloudflare the groundsheet.report redirect is a zone Redirect Rule
+# (see cloudflare-pages.md); the path rules work on both.
+
+# the short domain to the primary, path preserved
+https://groundsheet.report/*       https://getgroundsheet.com/:splat  301
+https://www.groundsheet.report/*   https://getgroundsheet.com/:splat  301
+https://www.getgroundsheet.com/*   https://getgroundsheet.com/:splat  301
+
+# the short-link convention: groundsheet.report/report/... lands on the samples
+/report            /samples/            301
+/report/           /samples/            301
+/report/*          /samples/:splat      301
+
+# the old working-name paths
+/prelim            /                    301
+/prelim/*          /:splat              301
+/sample            /samples/            301
+/refund            /refunds/            301
+/refund/           /refunds/            301

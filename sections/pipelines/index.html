@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pipelines · Groundsheet</title>
+<meta name="description" content="How the Groundsheet pipelines section works, with the Aptos sample's EIA transmission map, what generalised centrelines can and cannot tell you, the 811 rule, what to do, and every code the page prints.">
+<link rel="canonical" href="https://getgroundsheet.com/sections/pipelines/">
+<meta property="og:site_name" content="Groundsheet">
+<meta property="og:title" content="Transmission lines within five kilometres, the operator, and how close the nearest centreline runs">
+<meta property="og:description" content="How the Groundsheet pipelines section works, with the Aptos sample's EIA transmission map, what generalised centrelines can and cannot tell you, the 811 rule, what to do, and every code the page prints.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://getgroundsheet.com/sections/pipelines/">
+<meta property="og:image" content="https://getgroundsheet.com/assets/figures/aptos-pipeline-map.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/skin.css">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "about": {
+   "@type": "Thing",
+   "name": "Pipeline proximity to a property"
+  },
+  "author": {
+   "@type": "Organization",
+   "name": "Groundsheet",
+   "url": "https://getgroundsheet.com"
+  },
+  "dateModified": "2026-10-14",
+  "datePublished": "2026-10-14",
+  "description": "How the Groundsheet pipelines section works, with the Aptos sample\u0027s EIA transmission map, limits, the 811 rule, steps and codes.",
+  "headline": "Transmission lines within five kilometres, the operator, and how close the nearest centreline runs",
+  "image": "https://getgroundsheet.com/assets/figures/aptos-pipeline-map.png",
+  "mainEntityOfPage": "https://getgroundsheet.com/sections/pipelines/",
+  "publisher": {
+   "@type": "Organization",
+   "name": "Groundsheet",
+   "url": "https://getgroundsheet.com"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "creator": {
+   "@type": "Organization",
+   "name": "US Energy Information Administration",
+   "url": "https://www.eia.gov/maps/"
+  },
+  "description": "Seven generalised transmission centrelines from the EIA Natural Gas Pipelines layer, three within 1 km, one operator, nearest 0.83 km west; no hazardous liquid segments.",
+  "image": "https://getgroundsheet.com/assets/figures/aptos-pipeline-map.png",
+  "isAccessibleForFree": true,
+  "license": "https://www.usa.gov/government-works",
+  "name": "Natural gas transmission segments within 5 km of 123 Post Office Dr, Aptos, California",
+  "spatialCoverage": {
+   "@type": "Place",
+   "name": "Aptos, Santa Cruz County, California"
+  },
+  "temporalCoverage": "2026-10-09",
+  "url": "https://getgroundsheet.com/sections/pipelines/"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "item": "https://getgroundsheet.com/",
+    "name": "Groundsheet",
+    "position": 1
+   },
+   {
+    "@type": "ListItem",
+    "item": "https://getgroundsheet.com/sections/",
+    "name": "What\u0027s inside",
+    "position": 2
+   },
+   {
+    "@type": "ListItem",
+    "item": "https://getgroundsheet.com/sections/pipelines/",
+    "name": "Pipelines",
+    "position": 3
+   }
+  ]
+ }
+]
+</script>
+</head>
+<body class="layout-page section-sections">
+<header class="gs-header">
+  <div class="wrap">
+    <a class="gs-wordmark" href="/" aria-label="Groundsheet home"><span class="mark" aria-hidden="true"></span>Groundsheet</a>
+    <nav class="gs-nav" aria-label="Primary">
+<a href="/how-it-works/">How it works</a><a href="/sections/" aria-current="page">What's inside</a><a href="/samples/">Samples</a><a href="/pricing/">Pricing</a><a href="/agents/">For agents</a><a href="/inspectors/">For inspectors</a><a href="/methodology/">Sources</a>    </nav>
+    <a class="gs-cta" href="/order/"><span class="full">Get the groundsheet</span><span class="brief">Order</span></a>
+    <details class="gs-menu">
+      <summary aria-label="Menu"><span></span><span></span><span></span></summary>
+      <nav aria-label="Primary, small screens">
+<a href="/how-it-works/">How it works</a><a href="/sections/">What's inside</a><a href="/samples/">Samples</a><a href="/pricing/">Pricing</a><a href="/agents/">For agents</a><a href="/inspectors/">For inspectors</a><a href="/methodology/">Sources</a>        <a href="/order/">Order</a><a href="/about/">About</a><a href="/contact/">Contact</a>
+      </nav>
+    </details>
+  </div>
+</header>
+<main class="wrap">
+  <article class="gs-article">
+    <header class="gs-article-head">
+<p class="kicker">§ 07 · Pipelines</p>      <h1>Transmission lines within five kilometres, the operator, and how close the nearest centreline runs</h1>
+<p class="standfirst">The public pipeline record is deliberately coarse, and the section says so in its collar. The Energy Information Administration's layers give generalised centrelines for natural gas transmission and hazardous liquid lines; the section counts them within one, two and five kilometres, names the operator and measures the nearest. Aptos has seven gas segments, one operator, the nearest 0.8 km to the west, and no hazardous liquid line.</p>    </header>
+    <figure class="gs-hero">
+      <img src="/assets/figures/aptos-pipeline-map.png" alt="Natural gas transmission segments within five kilometres of 123 Post Office Dr, Aptos, drawn as generalised centrelines on a light basemap, seven segments, the nearest passing about 0.8 km west of the subject ring" loading="eager">
+<figcaption>§ 07 · gas transmission within 5 km of 123 Post Office Dr, Aptos, CA · EIA pipeline layers (ArcGIS), generalised geometry; precise alignment in NPMS (PHMSA) · retrieved 9 October 2026 · EPSG:3857, WGS 84, Mapbox Light, north up</figcaption>    </figure>
+    <div class="gs-body">
+      <div class="collar"><span><b>Source</b> EIA Natural Gas and Hydrocarbon Gas Liquids pipeline layers (ArcGIS), generalised geometry · precise alignments in NPMS (PHMSA), access rules apply · basemap Mapbox Light</span><span><b>Vintage</b> as published at retrieval</span><span><b>Retrieved</b> 9 October 2026 12:37 PT</span><span><b>Projection</b> EPSG:3857 · WGS 84 · north up · property point to the nearest centreline</span></div>
+
+<div class="stats">
+<div class="stat"><div class="n">3</div><div class="l">within 1 km</div><div class="u">segments; 5 within 2 km</div></div>
+<div class="stat"><div class="n">7</div><div class="l">within 5 km</div><div class="u">7 gas, 0 hazardous liquid</div></div>
+<div class="stat"><div class="n">0.8<small>km</small></div><div class="l">nearest centreline</div><div class="u">0.5 mi, west, generalised</div></div>
+<div class="stat"><div class="n">1</div><div class="l">operator</div><div class="u">California Gas Transmission Co; interstate: no</div></div>
+</div>
+
+<h2 id="what-the-figure-shows">What the figure shows</h2>
+<p>A light basemap with every transmission segment within five kilometres drawn as the public layer gives it, gas in one weight and hazardous liquid in another, the subject at the centre, and a bar chart of counts within one, two and five kilometres. A line of text names each operator with its segment count and whether the line crosses a state border. The collar states the one thing to know about the geometry: these are the Energy Information Administration's generalised centrelines, drawn for national maps, not survey lines; the precise alignment lives in PHMSA's National Pipeline Mapping System, which the public can view one county at a time under access rules. Aptos: seven segments of one operator's gas transmission, three within a kilometre, the nearest about 0.83 km to the west; no hazardous liquid.</p>
+<h2 id="what-it-cannot-show">What it cannot show</h2>
+<p>Where the line is to the metre. Whether an easement crosses the parcel (that is the title report's job). Distribution lines, the smaller pipes under every street, which are not in the transmission layer at all. The pipe's age, pressure, inspection history or incident record, which PHMSA holds by operator, not by map. And setbacks: there is no federal setback from a transmission line; what exists is local, in zoning or subdivision rules, and varies by county.</p>
+<h2 id="why-it-matters-to-a-buyer">Why it matters to a buyer</h2>
+<p>Three practical things. The law requires a call to 811 two working days before any digging, even for a fence post, and the marking is free; the operator marks its line on the ground. A transmission easement on the parcel limits what can be built over it and gives the operator access. And a line nearby is something an insurer or a lender may ask about, which is easier answered with the map than without it. The Groundsheet scale weights pipelines at 4 percent from distance; Aptos reads Moderate at 0.8 km.</p>
+<h2 id="what-you-can-do">What you can do</h2>
+<ol>
+<li>Call 811 two working days before any digging, even a fence post; the law requires it and the marking is free. <a href="https://primis.phmsa.dot.gov/stakeholder-comms/CBYD/">phmsa.dot.gov</a></li>
+<li>Confirm the alignment on the national pipeline map viewer and ask the title company for any easement on the parcel. <a href="https://pvnpms.phmsa.dot.gov/PublicViewer/">pvnpms.phmsa.dot.gov</a></li>
+<li>Know the leak signs (rotten-egg smell, hissing, a strip of dead plants) and the operator's number on the line markers. <a href="https://www.phmsa.dot.gov/safety-awareness/811-day">phmsa.dot.gov</a></li>
+<li>Ask the county planning desk whether a pipeline setback applies to any addition you have in mind; it is local, not federal.</li>
+</ol>
+<h2 id="reading-this-section">Reading this section</h2>
+<div class="annex"><dl>
+<div class="row"><dt>Transmission</dt><dd>A high-pressure line moving gas between regions, as distinct from the distribution lines under streets.</dd></div>
+<div class="row"><dt>Hazardous liquid</dt><dd>Crude, refined products, gas liquids or carbon dioxide, in the EIA's second layer.</dd></div>
+<div class="row"><dt>811</dt><dd>Call before you dig; the operator marks its line, free, within two working days.</dd></div>
+<div class="row"><dt>Interstate</dt><dd>Whether the line crosses a state border, which sets the regulator (federal or state).</dd></div>
+<div class="row"><dt><a href="/glossary/#EIA">EIA</a></dt><dd>US Energy Information Administration, publisher of the national pipeline map layers.</dd></div>
+<div class="row"><dt><a href="/glossary/#NPMS">NPMS</a></dt><dd>National Pipeline Mapping System, PHMSA's precise alignments, viewable by county under access rules.</dd></div>
+<div class="row"><dt><a href="/glossary/#PHMSA">PHMSA</a></dt><dd>Pipeline and Hazardous Materials Safety Administration, the federal pipeline regulator.</dd></div>
+<div class="row"><dt>km, mi</dt><dd>Property point to the nearest centreline; 0.8 km is 0.5 mi.</dd></div>
+</dl></div>
+
+<h2 id="in-the-sample-reports">In the sample reports</h2>
+<p>Aptos: <a href="/assets/samples/aptos-2026-10-14.pdf#page=29">page 29 of the sample PDF</a>. Tampa's nearest transmission segment is 5.35 km away, beyond the 5 km screen, so the section does not appear in that report; the findings ledger says so. The codes are in the <a href="/glossary/#pipelines">codes key</a>.</p>
+    </div>
+<p class="gs-updated">Updated 2026-10-14</p>  </article>
+</main>
+<footer class="gs-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <p class="gs-wordmark small">Groundsheet</p>
+        <p class="tag">A home is more than a house.<br>Know the ground before you buy.</p>
+      </div>
+      <div>
+        <p class="label">The report</p>
+        <a href="/how-it-works/">How it works</a><a href="/sections/">What's inside</a><a href="/samples/">Sample reports</a><a href="/methodology/">Sources and method</a><a href="/glossary/">Codes key</a>
+      </div>
+      <div>
+        <p class="label">Who it is for</p>
+        <a href="/agents/">Buyer's agents</a><a href="/inspectors/">Home inspectors</a><a href="/pricing/">Pricing</a><a href="/counties/">By county</a>
+      </div>
+      <div>
+        <p class="label">Company</p>
+        <a href="/about/">About</a><a href="/contact/">Contact</a><a href="/terms/">Terms</a><a href="/privacy/">Privacy</a><a href="/refunds/">Refunds</a>
+      </div>
+    </div>
+    <p class="fine">A screening report built from public federal and state records. Not a Phase I environmental site assessment, not a home inspection, not a statutory disclosure, not an insurance or engineering opinion. Every map says where it came from and when. © 2026 Groundsheet.</p>
+  </div>
+</footer>
+</body>
+</html>
